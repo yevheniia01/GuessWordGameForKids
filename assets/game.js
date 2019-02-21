@@ -89,34 +89,11 @@ function winFunc(){
         winsCount++;
         gameOver = true;
 
-        if(randomWord === "APPLE"){
-            alert("WINNER WINNER CHICKEN DINNER!!!")
-        }else if (randomWord === "UNICORN"){
-            alert("WINNER WINNER CHICKEN DINNER!!!")
-        }else if (randomWord === "POGONA"){
-            alert("WINNER WINNER CHICKEN DINNER!!!")
-        }else if (randomWord === "CAIMANLIZARD"){
-            alert("WINNER WINNER CHICKEN DINNER!!!")
-        }else if (randomWord === "BALLPYTHON"){
-            alert("WINNER WINNER CHICKEN DINNER!!!")
-        }else if (randomWord === "TREEFROG"){
-            alert("WINNER WINNER CHICKEN DINNER!!!")
-        }else if (randomWord === "ANOLE"){
-            alert("WINNER WINNER CHICKEN DINNER!!!")
-        }else if (randomWord === "CORNSNAKE"){
-            alert("WINNER WINNER CHICKEN DINNER!!!")
-        }else if (randomWord === "MONITOR"){
-            alert("WINNER WINNER CHICKEN DINNER!!!")
-        }else if (randomWord === "KINGCOBRA"){
-            alert("WINNER WINNER CHICKEN DINNER!!!")
-        }else if (randomWord === "COPPERHEAD"){
-            alert("WINNER WINNER CHICKEN DINNER!!!")
-        }else if (randomWord === "CONSTRICTOR"){
-            alert("WINNER WINNER CHICKEN DINNER!!!")
+        
         
         }
-   }
-}; 
+   };
+ 
 
 function losseFunc(){
     if (remainingGuesses <=0){
